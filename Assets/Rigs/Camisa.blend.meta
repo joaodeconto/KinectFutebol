@@ -21,21 +21,6 @@ ModelImporter:
     animationCompression: 1
     animationWrapMode: 0
     splitAnimations: 1
-  nodeInfo:
-    //RootNode:
-    - 100000
-    - 400000
-    - 11100000
-    Zedochute:
-    - 100002
-    - 400002
-    - 3300000
-    - 2300000
-    Zedochute.001:
-    - 100004
-    - 400004
-    - 3300002
-    - 2300002
 AssetImporter:
   importerVersion: 1
   fileIDToRecycleName:
