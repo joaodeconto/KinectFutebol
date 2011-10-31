@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts
+END
+StaticMenu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts/StaticMenu.cs
+END
+SessionManagerVisualizer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts/SessionManagerVisualizer.cs
+END
+ItemSelector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts/ItemSelector.cs
+END
+Fader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts/Fader.cs
+END
+HandPointControl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts/HandPointControl.cs
+END
+FollowHandPoint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts/FollowHandPoint.cs
+END
+PushDetector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/Assets/HandpointControls/Scripts/PushDetector.cs
+END

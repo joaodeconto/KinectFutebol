@@ -1,0 +1,6 @@
+fileFormatVersion: 1
+guid: 53127a0f4207dd5468dfea1f98d3f584
+MonoImporter:
+  importerVersion: 1
+  defaultReferences:
+    tiltShiftShader: {fileID: 4800000, guid: 926e6b8704ae248539bd7d7d6bdb7f16, type: 1}

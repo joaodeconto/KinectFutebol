@@ -1,0 +1,46 @@
+using UnityEngine;
+using System.Collections;
+
+[AddComponentMenu("VisioramaKinect/TempoDeJogo")]
+public class TempoDeJogo : MonoBehaviour
+{
+	
+	public GameObject[] objetosAtivar;
+	public GameObject[] objetosDesativar;
+	private float tempo = 0;
+	private int m_tempoTotal = 30;
+	private int m_tempo = 0;
+	
+	// Use this for initialization
+	void DA ()
+	{
+		foreach (GameObject objeto in objetosAtivar)
+			objeto.SetActiveRecursively(true);
+		
+		foreach (GameObject objeto in objetosDesativar)
+			objeto.SetActiveRecursively(false);
+		
+	}
+
+
+	// Update is called once per frame
+	void Update ()
+	{
+		tempo += Time.deltaTime;
+		m_tempo = (int)tempo;
+		if (m_tempo	> 0)
+		{
+			m_tempoTotal--;
+			tempo = 0;
+		}
+		
+		if (m_tempoTotal < 0)
+			DA ();
+	}
+	
+	void OnGUI ()
+	{
+		GUI.Box(new Rect(Screen.width - 100 - 20, 10, 100, 20), "TEMPO: " + m_tempoTotal + " s");
+	}
+}
+

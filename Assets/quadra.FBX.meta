@@ -1,0 +1,184 @@
+fileFormatVersion: 1
+guid: be92beb2783e340499946b5ca5385958
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Plane01:
+    - 100000
+    - 400000
+    - 3300000
+    - 2300000
+    Camera01.Target:
+    - 100002
+    - 400002
+    placa:
+    - 100004
+    - 400004
+    Plane12:
+    - 100006
+    - 400006
+    - 3300002
+    - 2300002
+    placa 3:
+    - 100008
+    - 400008
+    Object02:
+    - 100010
+    - 400010
+    - 3300004
+    - 2300004
+    placa 2:
+    - 100012
+    - 400012
+    placar pontos:
+    - 100014
+    - 400014
+    placa 5:
+    - 100016
+    - 400016
+    Plane04:
+    - 100018
+    - 400018
+    - 3300006
+    - 2300006
+    placa 1:
+    - 100020
+    - 400020
+    Plane09:
+    - 100022
+    - 400022
+    - 3300008
+    - 2300008
+    Object07:
+    - 100024
+    - 400024
+    - 3300010
+    - 2300010
+    Object09:
+    - 100026
+    - 400026
+    - 3300012
+    - 2300012
+    Plane10:
+    - 100028
+    - 400028
+    - 3300014
+    - 2300014
+    //RootNode:
+    - 100030
+    - 400030
+    - 11100000
+    Object03:
+    - 100032
+    - 400032
+    - 3300016
+    - 2300016
+    Plane08:
+    - 100034
+    - 400034
+    - 3300018
+    - 2300018
+    Object01:
+    - 100036
+    - 400036
+    - 3300020
+    - 2300020
+    Object04:
+    - 100038
+    - 400038
+    - 3300022
+    - 2300022
+    Plane06:
+    - 100040
+    - 400040
+    - 3300024
+    - 2300024
+    Plane13:
+    - 100042
+    - 400042
+    - 3300026
+    - 2300026
+    placa 7:
+    - 100044
+    - 400044
+    Camera01:
+    - 100046
+    - 400046
+    placa 4:
+    - 100048
+    - 400048
+    Plane05:
+    - 100050
+    - 400050
+    - 3300028
+    - 2300028
+    Object08:
+    - 100052
+    - 400052
+    - 3300030
+    - 2300030
+    Object05:
+    - 100054
+    - 400054
+    - 3300032
+    - 2300032
+    Plane11:
+    - 100056
+    - 400056
+    - 3300034
+    - 2300034
+    Plane07:
+    - 100058
+    - 400058
+    - 3300036
+    - 2300036
+    Object06:
+    - 100060
+    - 400060
+    - 3300038
+    - 2300038
+    placa 6:
+    - 100062
+    - 400062
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Plane01
+    4300002: Plane04
+    4300004: Object02
+    4300006: Plane06
+    4300008: Object01
+    4300010: Plane05
+    4300012: Object05
+    4300014: Plane08
+    4300016: Plane13
+    4300018: Object08
+    4300020: Plane11
+    4300022: Object04
+    4300024: Object03
+    4300026: Plane10
+    4300028: Plane12
+    4300030: Object07
+    4300032: Object06
+    4300034: Plane09
+    4300036: Object09
+    4300038: Plane07

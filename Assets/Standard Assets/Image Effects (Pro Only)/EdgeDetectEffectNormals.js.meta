@@ -1,0 +1,6 @@
+fileFormatVersion: 1
+guid: 119c7f9c85e966542ac1e6795b467e8d
+MonoImporter:
+  importerVersion: 1
+  defaultReferences:
+    edgeDetectShader: {fileID: 4800000, guid: 0d1644bdf064147baa97f235fc5b4903, type: 1}

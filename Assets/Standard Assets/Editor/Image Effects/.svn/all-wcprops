@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects
+END
+ColorCorrectionCurvesEditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects/ColorCorrectionCurvesEditor.js
+END
+SunShaftsEditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects/SunShaftsEditor.js
+END
+DepthOfField34Editor.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects/DepthOfField34Editor.js
+END
+EdgeDetectEffectNormalsEditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects/EdgeDetectEffectNormalsEditor.js
+END
+BloomAndLensFlaresEditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects/BloomAndLensFlaresEditor.js
+END
+AntialiasingAsPostEffectEditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects/AntialiasingAsPostEffectEditor.js
+END
+TiltShiftEditor.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Editor/Image%20Effects/TiltShiftEditor.js
+END

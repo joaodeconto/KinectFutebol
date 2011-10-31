@@ -1,0 +1,387 @@
+fileFormatVersion: 1
+guid: 7ef2d512f9ae17f4ba1a3479acb96d5e
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.4
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 2
+    splitAnimations: 1
+  nodeInfo:
+    ring.root.L:
+    - 100000
+    - 400000
+    palm.L:
+    - 100002
+    - 400002
+    pinky.goal.R:
+    - 100004
+    - 400004
+    toesIK.R:
+    - 100006
+    - 400006
+    footBase.R:
+    - 100008
+    - 400008
+    pointing.goal.R:
+    - 100010
+    - 400010
+    forearm.L:
+    - 100012
+    - 400012
+    uprArmJnt.L:
+    - 100014
+    - 400014
+    toes.R:
+    - 100016
+    - 400016
+    foot.R:
+    - 100018
+    - 400018
+    toesIK.L:
+    - 100020
+    - 400020
+    footBase.L:
+    - 100022
+    - 400022
+    armIK.R:
+    - 100024
+    - 400024
+    armIK.L:
+    - 100026
+    - 400026
+    abs:
+    - 100028
+    - 400028
+    PropThigh.R:
+    - 100030
+    - 400030
+    pinky.mid.L:
+    - 100032
+    - 400032
+    pinky.bender.R:
+    - 100034
+    - 400034
+    PropHand.R:
+    - 100036
+    - 400036
+    neck:
+    - 100038
+    - 400038
+    pinky.facing.R:
+    - 100040
+    - 400040
+    pointing.bender.R:
+    - 100042
+    - 400042
+    kneeIK.L:
+    - 100044
+    - 400044
+    kneeIK.R:
+    - 100046
+    - 400046
+    CubeGuy:
+    - 100048
+    - 400048
+    - 13700000
+    PlayerArmtr:
+    - 100050
+    - 400050
+    //RootNode:
+    - 100052
+    - 400052
+    - 11100000
+    ring.bender.L:
+    - 100054
+    - 400054
+    pointing.tip.L:
+    - 100056
+    - 400056
+    thighJnt.L:
+    - 100058
+    - 400058
+    pelvis:
+    - 100060
+    - 400060
+    pinky.tip.R:
+    - 100062
+    - 400062
+    middle.bender.L:
+    - 100064
+    - 400064
+    thumb.tip.L:
+    - 100066
+    - 400066
+    ring.root.R:
+    - 100068
+    - 400068
+    palm.R:
+    - 100070
+    - 400070
+    pointing.mid.L:
+    - 100072
+    - 400072
+    pointing.root.L:
+    - 100074
+    - 400074
+    shoulder.R:
+    - 100076
+    - 400076
+    knee.L:
+    - 100078
+    - 400078
+    thigh.L:
+    - 100080
+    - 400080
+    thumb.mid.L:
+    - 100082
+    - 400082
+    thumb.root.L:
+    - 100084
+    - 400084
+    pinky.root.R:
+    - 100086
+    - 400086
+    PropBack.LR:
+    - 100088
+    - 400088
+    thigh.R:
+    - 100090
+    - 400090
+    thighJnt.R:
+    - 100092
+    - 400092
+    head:
+    - 100094
+    - 400094
+    foot.L:
+    - 100096
+    - 400096
+    shin.L:
+    - 100098
+    - 400098
+    middle.goal.L:
+    - 100100
+    - 400100
+    middle.facing.L:
+    - 100102
+    - 400102
+    chest:
+    - 100104
+    - 400104
+    chestJnt:
+    - 100106
+    - 400106
+    ballRoll.L:
+    - 100108
+    - 400108
+    footIK.L:
+    - 100110
+    - 400110
+    PropHand.L:
+    - 100112
+    - 400112
+    pinky.tip.L:
+    - 100114
+    - 400114
+    pointing.facing.R:
+    - 100116
+    - 400116
+    ring.tip.L:
+    - 100118
+    - 400118
+    ring.mid.L:
+    - 100120
+    - 400120
+    ring.facing.L:
+    - 100122
+    - 400122
+    ring.goal.L:
+    - 100124
+    - 400124
+    pointing.facing.L:
+    - 100126
+    - 400126
+    thumb.mid.R:
+    - 100128
+    - 400128
+    uprArmJnt.R:
+    - 100130
+    - 400130
+    uprArm.R:
+    - 100132
+    - 400132
+    thumb.goal.R:
+    - 100134
+    - 400134
+    thumb.bender.R:
+    - 100136
+    - 400136
+    thumb.tip.R:
+    - 100138
+    - 400138
+    forearmJnt.L:
+    - 100140
+    - 400140
+    wrist.L:
+    - 100142
+    - 400142
+    middle.root.R:
+    - 100144
+    - 400144
+    pointing.bender.L:
+    - 100146
+    - 400146
+    PropThigh.L:
+    - 100148
+    - 400148
+    toes.L:
+    - 100150
+    - 400150
+    shin.R:
+    - 100152
+    - 400152
+    knee.R:
+    - 100154
+    - 400154
+    middle.tip.L:
+    - 100156
+    - 400156
+    middle.mid.L:
+    - 100158
+    - 400158
+    pinky.facing.L:
+    - 100160
+    - 400160
+    pinky.goal.L:
+    - 100162
+    - 400162
+    pinky.bender.L:
+    - 100164
+    - 400164
+    ring.bender.R:
+    - 100166
+    - 400166
+    ring.tip.R:
+    - 100168
+    - 400168
+    uprArm.L:
+    - 100170
+    - 400170
+    shoulderJnt.L:
+    - 100172
+    - 400172
+    thumb.facing.R:
+    - 100174
+    - 400174
+    ring.facing.R:
+    - 100176
+    - 400176
+    ring.goal.R:
+    - 100178
+    - 400178
+    pointing.root.R:
+    - 100180
+    - 400180
+    middle.tip.R:
+    - 100182
+    - 400182
+    PropHand.LR:
+    - 100184
+    - 400184
+    pointing.goal.L:
+    - 100186
+    - 400186
+    thumb.goal.L:
+    - 100188
+    - 400188
+    thumb.bender.L:
+    - 100190
+    - 400190
+    forearm.R:
+    - 100192
+    - 400192
+    pinky.root.L:
+    - 100194
+    - 400194
+    thumb.facing.L:
+    - 100196
+    - 400196
+    pinky.mid.R:
+    - 100198
+    - 400198
+    shoulderJnt.R:
+    - 100200
+    - 400200
+    ring.mid.R:
+    - 100202
+    - 400202
+    pointing.tip.R:
+    - 100204
+    - 400204
+    pointing.mid.R:
+    - 100206
+    - 400206
+    middle.facing.R:
+    - 100208
+    - 400208
+    middle.bender.R:
+    - 100210
+    - 400210
+    wrist.R:
+    - 100212
+    - 400212
+    thumb.root.R:
+    - 100214
+    - 400214
+    middle.goal.R:
+    - 100216
+    - 400216
+    forearmJnt.R:
+    - 100218
+    - 400218
+    ballRoll.R:
+    - 100220
+    - 400220
+    footIK.R:
+    - 100222
+    - 400222
+    middle.root.L:
+    - 100224
+    - 400224
+    headIK:
+    - 100226
+    - 400226
+    Cube:
+    - 100228
+    - 400228
+    - 13700002
+    middle.mid.R:
+    - 100230
+    - 400230
+    shoulder.L:
+    - 100232
+    - 400232
+    upperChest:
+    - 100234
+    - 400234
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: CubeGuy
+    4300002: Cube
+    7400000: AttackF2 //// BlockyMeleeFbx

@@ -1,0 +1,45 @@
+using UnityEngine;
+using System.Collections;
+
+[AddComponentMenu("VisioramaKinect/Colisao")]
+public class Colisao : MonoBehaviour
+{
+	public GameObject newBola;
+	
+	// Use this for initialization
+	void Start ()
+	{
+		Application.runInBackground = true;
+		Screen.showCursor = false;
+	}
+	
+	void OnTriggerEnter (Collider other)
+	{
+		if (other.rigidbody && other.tag == "Bola" && other.GetComponent<Bola>() && !other.GetComponent<Bola>().bateu)
+		{
+			other.rigidbody.AddForce((transform.forward * Random.Range(7.5f, 11.0f)	), ForceMode.Force);
+			StartCoroutine("NovaBola", other.gameObject);
+		}
+	}
+	
+	// Update is called once per frame
+	void Update ()
+	{
+		Debug.Log(rigidbody.velocity);
+	}
+	
+	IEnumerator NovaBola(GameObject bola)
+	{
+		if (!bola.GetComponent<Bola>().bateu)
+		{
+			bola.GetComponent<Bola>().bateu = true;
+			Debug.Log("Renew");
+			yield return new WaitForSeconds(3.5f);
+			Debug.Log("Renew Fim");
+			Instantiate(bola, new Vector3(0.0f, 1.0f, -6.0f), Quaternion.identity);
+			Destroy(bola);
+			bola.GetComponent<Bola>().bateu = false;
+		}
+		
+	}
+}

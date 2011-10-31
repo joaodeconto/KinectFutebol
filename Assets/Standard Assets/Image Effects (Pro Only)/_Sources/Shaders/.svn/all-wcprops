@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders
+END
+ColorCorrectionSelective.shader
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ColorCorrectionSelective.shader
+END
+frag_ao.cginc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/frag_ao.cginc
+END
+NoiseEffectShaderRGB.shader
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/NoiseEffectShaderRGB.shader
+END
+TwirlEffect.shader
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/TwirlEffect.shader
+END
+ShowAlphaChannel.shader
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ShowAlphaChannel.shader
+END
+GlowEffectDownsample.shader
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/GlowEffectDownsample.shader
+END
+ContrastComposite.shader
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ContrastComposite.shader
+END
+RadialBlur.shader
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/RadialBlur.shader
+END
+PrepareSunShaftsBlur.shader
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/PrepareSunShaftsBlur.shader
+END
+GlowConeTap.shader
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/GlowConeTap.shader
+END
+ColorCorrectionEffect.shader
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ColorCorrectionEffect.shader
+END
+FisheyeShader.shader
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/FisheyeShader.shader
+END
+EdgeDetectX.shader
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/EdgeDetectX.shader
+END
+NoiseEffectShaderYUV.shader
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/NoiseEffectShaderYUV.shader
+END
+GrayscaleEffect.shader
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/GrayscaleEffect.shader
+END
+EdgeDetectNormals.shader
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/EdgeDetectNormals.shader
+END
+MotionBlur.shader
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/MotionBlur.shader
+END
+SSAOShader.shader
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/SSAOShader.shader
+END
+GlobalFog.shader
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/GlobalFog.shader
+END
+ColorCorrectionCurves.shader
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ColorCorrectionCurves.shader
+END
+GlowCompose.shader
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/GlowCompose.shader
+END
+SimpleClear.shader
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/SimpleClear.shader
+END
+SunShaftsComposite.shader
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/SunShaftsComposite.shader
+END
+VortexEffect.shader
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/VortexEffect.shader
+END
+SepiaToneEffect.shader
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/SepiaToneEffect.shader
+END
+VignettingShader.shader
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/VignettingShader.shader
+END
+ConvertDepth.shader
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ConvertDepth.shader
+END
+ChromaticAberrationShader.shader
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ChromaticAberrationShader.shader
+END
+CreaseApply.shader
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/CreaseApply.shader
+END
+ColorCorrectionCurvesSimple.shader
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/ColorCorrectionCurvesSimple.shader
+END

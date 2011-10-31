@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares
+END
+VignetteShader.shader
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares/VignetteShader.shader
+END
+BrightPassFilter.shader
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares/BrightPassFilter.shader
+END
+MultiPassHollywoodFlares.shader
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+END
+LensFlareCreate.shader
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares/LensFlareCreate.shader
+END
+Blend.shader
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares/Blend.shader
+END
+SeparableBlurPlus.shader
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares/SeparableBlurPlus.shader
+END
+BlendOneOne.shader
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_BloomAndFlares/BlendOneOne.shader
+END

@@ -1,0 +1,123 @@
+fileFormatVersion: 1
+guid: ce378def30c90384999c795fd91750bf
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Toe_L:
+    - 100000
+    - 400000
+    //RootNode:
+    - 100002
+    - 400002
+    - 11100000
+    Torso:
+    - 100004
+    - 400004
+    Neck:
+    - 100006
+    - 400006
+    Head:
+    - 100008
+    - 400008
+    Shoulder_L:
+    - 100010
+    - 400010
+    UpperArm_L:
+    - 100012
+    - 400012
+    Forearm_L:
+    - 100014
+    - 400014
+    Hand_L:
+    - 100016
+    - 400016
+    Mit1_L:
+    - 100018
+    - 400018
+    Mit2_L:
+    - 100020
+    - 400020
+    Foot_R:
+    - 100022
+    - 400022
+    Thumb_R:
+    - 100024
+    - 400024
+    Mit1_R:
+    - 100026
+    - 400026
+    Mit2_R:
+    - 100028
+    - 400028
+    quadri_r:
+    - 100030
+    - 400030
+    Thumb_L:
+    - 100032
+    - 400032
+    Shoulder_R:
+    - 100034
+    - 400034
+    Foot_L:
+    - 100036
+    - 400036
+    Thigh_L:
+    - 100038
+    - 400038
+    Toe_R:
+    - 100040
+    - 400040
+    quadri_l:
+    - 100042
+    - 400042
+    Shin_L:
+    - 100044
+    - 400044
+    Hand_R:
+    - 100046
+    - 400046
+    UpperArm_R:
+    - 100048
+    - 400048
+    Forearm_R:
+    - 100050
+    - 400050
+    Thigh_R:
+    - 100052
+    - 400052
+    Shin_R:
+    - 100054
+    - 400054
+    Rigify:
+    - 100056
+    - 400056
+    Pelvis:
+    - 100058
+    - 400058
+    - 13700000
+    Jogador:
+    - 100060
+    - 400060
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Jogador

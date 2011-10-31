@@ -1,0 +1,184 @@
+fileFormatVersion: 1
+guid: a647adfc8e2e4854893833b99e32520c
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Foot.R.001:
+    - 100000
+    - 400000
+    Shoulder.R:
+    - 100002
+    - 400002
+    Head:
+    - 100004
+    - 400004
+    Forearm.L.005:
+    - 100006
+    - 400006
+    Forearm.L.015:
+    - 100008
+    - 400008
+    Forearm.L.017:
+    - 100010
+    - 400010
+    Foot.L.001:
+    - 100012
+    - 400012
+    Forearm.L.016:
+    - 100014
+    - 400014
+    Forearm.L.007:
+    - 100016
+    - 400016
+    Forearm.L.006:
+    - 100018
+    - 400018
+    Forearm.R.016:
+    - 100020
+    - 400020
+    Forearm.R.010:
+    - 100022
+    - 400022
+    dedao2:
+    - 100024
+    - 400024
+    UpperArm.R:
+    - 100026
+    - 400026
+    Forearm.L.012:
+    - 100028
+    - 400028
+    Shin.R:
+    - 100030
+    - 400030
+    l.mao.001:
+    - 100032
+    - 400032
+    Forearm.R.015:
+    - 100034
+    - 400034
+    Shoulder.L:
+    - 100036
+    - 400036
+    Torso:
+    - 100038
+    - 400038
+    Thigh.L:
+    - 100040
+    - 400040
+    UpperArm.L:
+    - 100042
+    - 400042
+    Forearm.L.013:
+    - 100044
+    - 400044
+    Forearm.L.004:
+    - 100046
+    - 400046
+    Zedochute:
+    - 100048
+    - 400048
+    - 13700000
+    Forearm.L:
+    - 100050
+    - 400050
+    Foot.R:
+    - 100054
+    - 400054
+    Forearm.R.006:
+    - 100056
+    - 400056
+    mao:
+    - 100058
+    - 400058
+    Forearm.L.002:
+    - 100060
+    - 400060
+    Forearm.R.014:
+    - 100062
+    - 400062
+    Forearm.R.012:
+    - 100064
+    - 400064
+    Forearm.R.002:
+    - 100066
+    - 400066
+    dedao1:
+    - 100068
+    - 400068
+    Forearm.L.011:
+    - 100070
+    - 400070
+    Forearm.L.010:
+    - 100072
+    - 400072
+    Forearm.R:
+    - 100074
+    - 400074
+    Foot.L:
+    - 100076
+    - 400076
+    Forearm.R.011:
+    - 100078
+    - 400078
+    Shin.L:
+    - 100084
+    - 400084
+    Forearm.R.013:
+    - 100086
+    - 400086
+    Thigh.R:
+    - 100088
+    - 400088
+    Forearm.L.009:
+    - 100090
+    - 400090
+    Rigify:
+    - 100092
+    - 400092
+    Neck:
+    - 100094
+    - 400094
+    indica2:
+    - 100096
+    - 400096
+    Pelvis:
+    - 100098
+    - 400098
+    indica1:
+    - 100100
+    - 400100
+    medio1:
+    - 100102
+    - 400102
+    //RootNode:
+    - 100106
+    - 400106
+    - 11100000
+    Forearm.L.014:
+    - 100108
+    - 400108
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Jogador1
+    4300002: Zedochute

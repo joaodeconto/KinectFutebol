@@ -1,0 +1,27 @@
+using UnityEngine;
+using System.Collections;
+
+[AddComponentMenu("VisioramaKinect/Score")]
+public class Score : MonoBehaviour
+{
+	public int score = 0;
+	ScoreTotal scoreTotal;
+	
+	void Start()
+	{
+		if (null == transform.parent.GetComponent<ScoreTotal>())
+			transform.parent.gameObject.AddComponent<ScoreTotal>();
+		
+		scoreTotal = transform.parent.GetComponent<ScoreTotal>();
+	}
+	
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "Bola" && !other.GetComponent<Bola>().gol)
+		{
+			scoreTotal.scoreTotal += score;
+			other.GetComponent<Bola>().gol = true;
+		}
+	}
+}
+

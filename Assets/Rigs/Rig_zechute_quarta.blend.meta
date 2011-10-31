@@ -1,0 +1,195 @@
+fileFormatVersion: 1
+guid: 73ed9e3c21142f4419ffe6e810da7c7d
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    Torso:
+    - 100002
+    - 400002
+    Rigify:
+    - 100004
+    - 400004
+    Shoulder.L:
+    - 100006
+    - 400006
+    UpperArm.L:
+    - 100008
+    - 400008
+    Forearm.L.006:
+    - 100010
+    - 400010
+    Forearm.L:
+    - 100012
+    - 400012
+    Lamp.001:
+    - 100014
+    - 400014
+    l.mao.001:
+    - 100016
+    - 400016
+    Forearm.L.016:
+    - 100018
+    - 400018
+    Jogador1:
+    - 100020
+    - 400020
+    - 13700000
+    Forearm.L.010:
+    - 100022
+    - 400022
+    Lamp.002:
+    - 100024
+    - 400024
+    Forearm.L.007:
+    - 100026
+    - 400026
+    Camera:
+    - 100028
+    - 400028
+    Forearm.L.015:
+    - 100030
+    - 400030
+    Forearm.L.014:
+    - 100032
+    - 400032
+    Lamp:
+    - 100034
+    - 400034
+    Pelvis:
+    - 100036
+    - 400036
+    Forearm.L.009:
+    - 100038
+    - 400038
+    Forearm.L.011:
+    - 100040
+    - 400040
+    Shin.R:
+    - 100042
+    - 400042
+    Forearm.R.002:
+    - 100044
+    - 400044
+    Shoulder.R:
+    - 100046
+    - 400046
+    Forearm.R.012:
+    - 100048
+    - 400048
+    Thigh.L:
+    - 100050
+    - 400050
+    mao:
+    - 100052
+    - 400052
+    Foot.L:
+    - 100054
+    - 400054
+    Forearm.R:
+    - 100056
+    - 400056
+    UpperArm.R:
+    - 100058
+    - 400058
+    Forearm.R.016:
+    - 100060
+    - 400060
+    Neck:
+    - 100062
+    - 400062
+    Head:
+    - 100064
+    - 400064
+    Foot.R:
+    - 100066
+    - 400066
+    Foot.R.001:
+    - 100068
+    - 400068
+    medio1:
+    - 100070
+    - 400070
+    Forearm.L.017:
+    - 100072
+    - 400072
+    Forearm.R.013:
+    - 100074
+    - 400074
+    Forearm.R.014:
+    - 100076
+    - 400076
+    Forearm.R.015:
+    - 100078
+    - 400078
+    Forearm.L.013:
+    - 100080
+    - 400080
+    Forearm.L.012:
+    - 100082
+    - 400082
+    Forearm.L.005:
+    - 100084
+    - 400084
+    indica1:
+    - 100086
+    - 400086
+    dedao1:
+    - 100088
+    - 400088
+    Forearm.R.010:
+    - 100090
+    - 400090
+    dedao2:
+    - 100092
+    - 400092
+    Forearm.R.006:
+    - 100094
+    - 400094
+    indica2:
+    - 100096
+    - 400096
+    Shin.L:
+    - 100098
+    - 400098
+    Foot.L.001:
+    - 100100
+    - 400100
+    Forearm.R.011:
+    - 100102
+    - 400102
+    Thigh.R:
+    - 100104
+    - 400104
+    Forearm.L.004:
+    - 100106
+    - 400106
+    Forearm.L.002:
+    - 100108
+    - 400108
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Jogador1

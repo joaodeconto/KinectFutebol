@@ -1,0 +1,106 @@
+using UnityEngine;
+using System;
+using System.Collections;
+using System.Text;
+using System.IO;
+
+public enum Avaliacao {
+	Inovadora,
+	Surpreendente,
+	Legal,
+	Dificil
+}
+
+[AddComponentMenu("VisioramaKinect/Prefs")]
+public class Prefs : MonoBehaviour
+{
+	public Avaliacao avaliacao;
+	
+	string diretorio = "questionario";
+	string nomeDoArquivo = "questionario";
+	
+	float m_tempo = 0;
+	
+	StreamWriter stream;
+	StreamReader sr;
+	Encoding iso = Encoding.GetEncoding("ISO-8859-1"); 
+	Encoding utf8 = Encoding.UTF8; 
+
+	int i = 0, s = 0, l = 0, d = 0;
+	
+	void SaveQuestion()
+	{
+		if (diretorio == null)
+		{
+			Debug.LogError("Não foi defenido um diretório");
+			return;
+		}
+		
+		if (!Directory.Exists(diretorio))
+			Directory.CreateDirectory(diretorio);
+		
+		if (File.Exists(diretorio+"/"+nomeDoArquivo+".txt"))
+		{
+            try
+            {
+	            sr = new StreamReader(diretorio+"/"+nomeDoArquivo+".txt");
+				sr.ReadLine();
+				sr.ReadLine();
+				sr.ReadLine();
+	            i = Convert.ToInt32(sr.ReadLine());
+				sr.ReadLine();
+	            s = Convert.ToInt32(sr.ReadLine());
+				sr.ReadLine();
+	            l = Convert.ToInt32(sr.ReadLine());
+				sr.ReadLine();
+	            d = Convert.ToInt32(sr.ReadLine());
+				sr.Close();
+			}
+            catch (IOException e)
+            {
+                Debug.LogError(e);
+			}
+		}
+		
+		stream = new StreamWriter(diretorio+"/"+nomeDoArquivo+".txt");
+		if (avaliacao == Avaliacao.Inovadora)
+			i++;
+		else if (avaliacao == Avaliacao.Surpreendente)
+			s++;
+		else if (avaliacao == Avaliacao.Legal)
+			l++;
+		else if (avaliacao == Avaliacao.Dificil)
+			d++;
+        stream.WriteLine("Avaliacao!");
+        stream.WriteLine();
+        stream.WriteLine("Inovadora:");
+        stream.WriteLine(i);
+        stream.WriteLine("Surpreendente:");
+        stream.WriteLine(s);
+        stream.WriteLine("Legal:");
+        stream.WriteLine(l);
+        stream.WriteLine("Dificil:");
+        stream.WriteLine(d);
+		stream.Close();
+		
+		Application.LoadLevel(Application.loadedLevel);
+	}
+	
+		void OnTriggerStay (Collider other)
+	{
+		if (other.tag == "Player") {
+			if (m_tempo < 50.0f) {
+				m_tempo += UnityEngine.Random.Range (0.25f, 1.0f);
+			} else {
+				SaveQuestion();
+			}
+		}
+	}
+
+	void OnTriggerExit (Collider other)
+	{
+		if (other.tag == "Player")
+			m_tempo = 0;
+	}
+}
+

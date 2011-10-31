@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_DepthOfField
+END
+TiltShift.shader
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_DepthOfField/TiltShift.shader
+END
+Bokeh34.shader
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_DepthOfField/Bokeh34.shader
+END
+SeparableBlur.shader
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_DepthOfField/SeparableBlur.shader
+END
+DepthOfField34.shader
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_DepthOfField/DepthOfField34.shader
+END
+SeparableWeightedBlurDof34.shader
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/2/trunk/Assets/Standard%20Assets/Image%20Effects%20(Pro%20Only)/_Sources/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader
+END

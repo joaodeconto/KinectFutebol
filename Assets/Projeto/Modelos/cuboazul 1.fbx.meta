@@ -1,0 +1,54 @@
+fileFormatVersion: 1
+guid: 320895c63432d3a4abb62d1a1ea15ad1
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    Bone_002:
+    - 100002
+    - 400002
+    Bone_001:
+    - 100004
+    - 400004
+    Bone:
+    - 100006
+    - 400006
+    - 13700000
+    Bones:
+    - 100008
+    - 400008
+    Camera:
+    - 100010
+    - 400010
+    Lamp:
+    - 100012
+    - 400012
+    Cube:
+    - 100014
+    - 400014
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Cube
