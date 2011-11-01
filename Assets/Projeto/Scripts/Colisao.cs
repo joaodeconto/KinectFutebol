@@ -54,9 +54,6 @@ public class Colisao : MonoBehaviour
 		
 		foreach (GameObject objeto in objetosDesativar)
 			objeto.SetActiveRecursively(false);
-		
-		Debug.Log("FIM DO JOGO |o| ");
-		
 	}
 	
 	// Update is called once per frame
@@ -68,16 +65,13 @@ public class Colisao : MonoBehaviour
 	IEnumerator NovaBola(GameObject bola)
 	{
 		bola.GetComponent<Bola>().bateu = true;
-		Debug.Log("Renew");
 		yield return new WaitForSeconds(3.5f);
 		hud.SetarHud(target.GetComponent<TotalDeBolas>().numeroDeBolas, bola.GetComponent<Bola>().gol);
-		Debug.Log("Renew Fim");
 //			GameObject newBola = new GameObject("Bola", bola.GetComponents);
 		GameObject newBola = Instantiate(bola, new Vector3(0f, 2f, 1f), Quaternion.identity) as GameObject;
 		//======================================================
 		target.GetComponent<TotalDeBolas>().numeroDeBolas +=1;//aumenta o numero de bolas ja instanciiadas
 		text 			= ""+target.GetComponent<TotalDeBolas>().numeroDeBolas+" / 5";
-		Debug.Log(text);
 		//======================================================
 		Destroy(bola);
 		newBola.GetComponent<Bola>().bateu = false;

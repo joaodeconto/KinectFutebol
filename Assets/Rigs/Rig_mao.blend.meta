@@ -21,6 +21,73 @@ ModelImporter:
     animationCompression: 1
     animationWrapMode: 0
     splitAnimations: 1
+  nodeInfo:
+    mao:
+    - 100000
+    - 400000
+    indica1:
+    - 100002
+    - 400002
+    indica2:
+    - 100004
+    - 400004
+    mini2:
+    - 100006
+    - 400006
+    Forearm.R.002:
+    - 100008
+    - 400008
+    Forearm.R.014:
+    - 100010
+    - 400010
+    mini1:
+    - 100012
+    - 400012
+    anelar1:
+    - 100014
+    - 400014
+    anelar2:
+    - 100016
+    - 400016
+    Forearm.R:
+    - 100018
+    - 400018
+    Forearm.R.006:
+    - 100020
+    - 400020
+    Forearm.R.011:
+    - 100022
+    - 400022
+    Rigify:
+    - 100024
+    - 400024
+    dedao1:
+    - 100026
+    - 400026
+    dedao2:
+    - 100028
+    - 400028
+    Jogador1:
+    - 100030
+    - 400030
+    - 13700000
+    Camera:
+    - 100032
+    - 400032
+    Jogador1.001:
+    - 100034
+    - 400034
+    - 13700002
+    medio2:
+    - 100036
+    - 400036
+    //RootNode:
+    - 100038
+    - 400038
+    - 11100000
+    medio1:
+    - 100040
+    - 400040
 AssetImporter:
   importerVersion: 1
   fileIDToRecycleName:

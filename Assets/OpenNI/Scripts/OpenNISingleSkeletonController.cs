@@ -147,7 +147,6 @@ public class OpenNISingleSkeletonController : MonoBehaviour
 		index = index % propagandas.Length;
 		// atribuir no material
 		Texture textura = propagandas[index];
-		print(Screen.width + " : " + Screen.height);
 		GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), textura);
 	}
 }

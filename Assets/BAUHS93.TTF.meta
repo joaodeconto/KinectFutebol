@@ -5,6 +5,9 @@ TrueTypeFontImporter:
   size: 16
   case: -2
   antiAlias: 0
-  includeFontData: 1
+  includeFontData: 0
   use2xBehaviour: 0
-  style: 0
+  style: 1
+  fontNames:
+    name: Bauhaus 93
+    name: Arial
