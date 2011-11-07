@@ -9,7 +9,7 @@ public class ObjetosDA : MonoBehaviour
 	private float m_tempo;
 	public GameObject target,targetHud;
 	// Use this for initialization
-	void DA ()
+	public void DA ()
 	{
 		foreach (GameObject objeto in objetosAtivar)
 			objeto.SetActiveRecursively(true);
@@ -20,25 +20,25 @@ public class ObjetosDA : MonoBehaviour
 			objeto.SetActiveRecursively(false);
 		
 	}
-	
-	void OnTriggerStay (Collider other)
-	{
-		if (other.tag == "Player") {
-			if (m_tempo < 50.0f) {
-				m_tempo += Random.Range (0.25f, 1.0f);
-			} else {
-				target.GetComponent<TotalDeBolas>().numeroDeBolas = 1;//seta a variavel para 1 iniciando o jogo
-				target.GetComponent<TotalDeBolas>().trava = false;
-				targetHud.GetComponent<HUDmanipulation>().Reset();
-				DA();
-			}
-		}
-	}
-
-	void OnTriggerExit (Collider other)
-	{
-		if (other.tag == "Player")
-			m_tempo = 0;
-	}
+//	
+//	void OnTriggerStay (Collider other)
+//	{
+//		if (other.tag == "Player") {
+//			if (m_tempo < 50.0f) {
+//				m_tempo += Random.Range (0.25f, 1.0f);
+//			} else {
+//				target.GetComponent<TotalDeBolas>().numeroDeBolas = 1;//seta a variavel para 1 iniciando o jogo
+//				target.GetComponent<TotalDeBolas>().trava = false;
+//				targetHud.GetComponent<HUDmanipulation>().Reset();
+//				DA();
+//			}
+//		}
+//	}
+//
+//	void OnTriggerExit (Collider other)
+//	{
+//		if (other.tag == "Player")
+//			m_tempo = 0;
+//	}
 }
 

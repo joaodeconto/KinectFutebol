@@ -14,9 +14,8 @@ public class EscolherPeca : MonoBehaviour
 	public Tipo tipo;
 	
 	private float m_tempo = 0;
-	private bool m_escolhido = false;	
-
-	// Update is called once per frame
+	internal bool m_escolhido = false;
+		// Update is called once per frame
 	void Update ()
 	{
 		if (m_escolhido) {
@@ -34,22 +33,30 @@ public class EscolherPeca : MonoBehaviour
 		}
 	}
 	
-	void OnTriggerStay (Collider other)
-	{
-		if (other.tag == "Player") {
-			if (m_tempo < 50.0f) {
-				m_tempo += Random.Range (0.25f, 1.0f);
-			} else {
-				m_escolhido = true;
-			}
-		}
-	}
-
-	void OnTriggerExit (Collider other)
-	{
-		if (other.tag == "Player") {
-			m_escolhido = false;
-			m_tempo = 0;
-		}
-	}
+//	void OnTriggerEnter (Collider other) {
+//		if (other.tag == "Player") {
+//			animacaoMao = other.GetComponentInChildren<Animation>();
+//			m_escolhido = false;
+//			m_tempo = animacaoMao["fecha_mao"].length;
+//		}
+//	}
+//	
+//	void OnTriggerStay (Collider other)
+//	{
+//		if (other.tag == "Player") {
+//			if (m_tempo < 0) {
+//				m_tempo -= Time.deltaTime;
+//			} else {
+//				m_escolhido = true;
+//			}
+//		}
+//	}
+//
+//	void OnTriggerExit (Collider other)
+//	{
+//		if (other.tag == "Player") {
+//			m_escolhido = false;
+//			m_tempo = animacaoMao["fecha_mao"].length;
+//		}
+//	}
 }

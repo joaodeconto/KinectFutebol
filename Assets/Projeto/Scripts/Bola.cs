@@ -5,14 +5,14 @@ using System.Collections;
 public class Bola : MonoBehaviour
 {
 	internal bool 		bateu = false; 
-	internal bool 		gol = false; 
-	/*
+	internal bool 		gol = false;
+	
+	public AudioClip	somChute;
+	
 	void Update(){
-		if(bateu)
-			Debug.Log("lololololololololololo");	
-		if(gol)	
-			Debug.Log("oioioioioioioioioioioi");
+		if(bateu) {
+			audio.PlayOneShot(somChute);
+		}
 	}
-	*/
 	
 }
