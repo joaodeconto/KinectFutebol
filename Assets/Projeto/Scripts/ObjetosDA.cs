@@ -14,6 +14,9 @@ public class ObjetosDA : MonoBehaviour
 		foreach (GameObject objeto in objetosAtivar)
 			objeto.SetActiveRecursively(true);
 		
+		GameObject bola = GameObject.FindWithTag("Bola");
+		bola.GetComponent<Bola>().bateu = false;
+		
 		m_tempo = 0;
 		
 		foreach (GameObject objeto in objetosDesativar)

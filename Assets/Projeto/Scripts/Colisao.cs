@@ -8,7 +8,7 @@ public class Colisao : MonoBehaviour
 	private GUIStyle tempoStyle;
 	
 	//=============================================
-	public GameObject[] objetosAtivar;
+	public GameObject objetosAtivar;
 	public GameObject[] objetosDesativar;
 	public string 	text;
 	public GameObject target, targetHud;
@@ -35,36 +35,32 @@ public class Colisao : MonoBehaviour
 	{
 		if (other.rigidbody && other.tag == "Bola" && other.GetComponent<Bola>() && !other.GetComponent<Bola>().bateu)
 		{
-			other.rigidbody.AddForce((transform.forward * Random.Range(15.0f, 20.0f)	), ForceMode.Force);
+			other.rigidbody.AddForce((transform.forward * Random.Range(15.0f, 20.0f)), ForceMode.Force);
 			StartCoroutine("NovaBola", other.gameObject);
 		}
 	}
 	
 	void DA ()
 	{
-		foreach (GameObject objeto in objetosAtivar)
-			objeto.SetActiveRecursively(true);
+		objetosAtivar.SetActiveRecursively(true);
 		
 //		prefs.CarregarScreen();
-		target.GetComponent<TotalDeBolas>().numeroDeBolas = 1;
-		targetHud.GetComponent<HUDmanipulation>().Reset();
+		hud.Reset();
 		//m_tempoTotal = initialTempo;
 		TakePhoto.ResetValues();
-		hud.Reset();
 		
 		foreach (GameObject objeto in objetosDesativar)
 			objeto.SetActiveRecursively(false);
 	}
 	
 	// Update is called once per frame
-	void Update ()
-	{
-	//Debug.Log(rigidbody.velocity);
+	void Update () {
 	}
 	
 	IEnumerator NovaBola(GameObject bola)
 	{
 		bola.GetComponent<Bola>().bateu = true;
+		bola.GetComponent<Bola>().encostou = true;
 		yield return new WaitForSeconds(3.5f);
 		hud.SetarHud(target.GetComponent<TotalDeBolas>().numeroDeBolas, bola.GetComponent<Bola>().gol);
 //			GameObject newBola = new GameObject("Bola", bola.GetComponents);
@@ -74,13 +70,14 @@ public class Colisao : MonoBehaviour
 		text 			= ""+target.GetComponent<TotalDeBolas>().numeroDeBolas+" / 5";
 		//======================================================
 		Destroy(bola);
-		newBola.GetComponent<Bola>().bateu = false;
 		newBola.GetComponent<Bola>().gol = false;
 		if (target.GetComponent<TotalDeBolas>().numeroDeBolas > 5){
-			target.GetComponent<TotalDeBolas>().trava = true;
+			bola.GetComponent<Bola>().bateu = true;
+			target.GetComponent<TotalDeBolas>().ResetNumBolas();
 			DA ();
 		}
-		
+		else
+			newBola.GetComponent<Bola>().bateu = false;
 	}	
 	
 	void OnGUI (){

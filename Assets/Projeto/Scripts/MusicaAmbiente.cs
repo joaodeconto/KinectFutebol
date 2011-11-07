@@ -16,6 +16,7 @@ public class MusicaAmbiente : MonoBehaviour {
 	void Update () {
 		if(!soundPlayer.isPlaying){
 			soundPlayer.clip = sons[ Random.Range(0,sons.Length - 1)];
+			soundPlayer.Play();
 		}
 	}
 }

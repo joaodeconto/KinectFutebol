@@ -21,8 +21,6 @@ public class AnimacaoMao : MonoBehaviour {
 				other.GetComponent<EscolherPeca>().m_escolhido = true;
 			else if (other.tag == "SelecaoInicio")
 				other.GetComponent<ObjetosDA>().DA();
-			else if (other.tag == "SelecaoFim")
-				other.GetComponent<Prefs>().TimerReset();
 		}
 		else if (!play) {
 			animacao["fecha_mao"].speed = 1;

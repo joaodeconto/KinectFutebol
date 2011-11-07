@@ -10,6 +10,7 @@ public class Prefs : MonoBehaviour
 {
 	public GameObject inicio;
 	public GameObject m_foto;
+	public GameObject mao;
 	
 	string diretorio = "questionario";
 	string nomeDoArquivo = "questionario";
@@ -19,10 +20,19 @@ public class Prefs : MonoBehaviour
 
 	int i = 0, s = 0, l = 0, d = 0;
 	
+	void Update () {
+		if (m_tempo < 200.0f) {
+			m_tempo += UnityEngine.Random.Range (0.25f, 1.0f);
+		} else {
+			TimerReset();
+		}
+	}
+	
 	public void TimerReset() {
 		GameObject.Find("Jogo/goleira/Placar").GetComponent<ScoreTotal>().scoreTotal = 0;
 		m_tempo = 0;
 		inicio.SetActiveRecursively(true);
+		mao.SetActiveRecursively(true);
 		transform.parent.gameObject.SetActiveRecursively(false);
 	}
 	

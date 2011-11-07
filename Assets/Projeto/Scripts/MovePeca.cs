@@ -15,6 +15,6 @@ public class MovePeca : MonoBehaviour {
 	
 	void Move()
 	{
-			rigidbody.MovePosition(new Vector3((Mathf.Sin(Time.time) * 5), transform.position.y, transform.position.z));
+		rigidbody.MovePosition(new Vector3((Mathf.Sin(Time.time) * 5), transform.position.y, transform.position.z));
 	}
 }

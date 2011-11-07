@@ -24,6 +24,7 @@ public class HUDmanipulation : MonoBehaviour {
 
 	// Update is called once per frame
 	public void SetarHud (int Hud, bool ok) {
+		print(Hud);
 		switch(Hud){
 		case 1:
 			if(ok)

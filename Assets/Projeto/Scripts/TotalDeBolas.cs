@@ -3,13 +3,9 @@ using System.Collections;
 
 public class TotalDeBolas : MonoBehaviour {
 	//VAriaveis
-	public int numeroDeBolas = 0;
-	public bool trava = true;
+	public int numeroDeBolas = 1;
 	
-	void Update(){
-		if(trava){
-			numeroDeBolas = 1;
-		}	
+	public void ResetNumBolas(){
+		numeroDeBolas = 1;
 	}
-		
 }
